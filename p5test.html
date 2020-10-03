@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js" integrity="sha512-C2RveGuPIWqkaLAluvoxyiaN1XYNe5ss11urhZWZYBUA9Ydgj+hfGKPcxCzTwut1/fmjEZR7Ac35f2aycT8Ogw==" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.min.js" integrity="sha512-ADpWKsaOuAegRSoUObE1si2VF6HQJyQR3Zy44l7s6YsGA6BnPIrIwN9uKJ0rsMhtDAMFqnGZhQXMJcsWSp40pA==" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js" integrity="sha512-tBzZQxySO5q5lqwLWfu8Q+o4VkTcRGOeQGVQ0ueJga4A1RKuzmAu5HXDOXLEjpbKyV7ow9ympVoa6wZLEzRzDg==" crossorigin="anonymous"></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="datInput">
+        Enter the vertices of the graph by names, separated by spaces. Meximum number of vertices is 10.
+        <form id="graphForm">
+            <label for="nodes">Vertices:</label><br>
+            <input type="text" id="nodes" name="nodes" oninput="readNodes();">
+        </form>
+    </div>
+    <div id="container">
+        <div id="sketch">
+            <svg>
+            </svg>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!--<div id="tree" style="width:335px; height: 160px"></div>-->
+    <!--<script src="script2.js"></script>-->
+
+</body>
+</html>

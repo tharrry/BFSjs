@@ -1,0 +1,29 @@
+body {
+    align-items: center;
+}
+
+#container {
+    margin-top: 30px;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+#sketch {
+    background-color: rgba(255, 228, 196, 0.075);
+    height: 75%;
+    width: 75%;
+}
+
+path {
+    fill: none;
+    stroke: teal;
+}
+
+text {
+    text-shadow: 
+    -1px -1px 3px white,
+    -1px  1px 3px white,
+     1px -1px 3px white,
+     1px  1px 3px white;
+}
